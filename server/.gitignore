@@ -7,7 +7,7 @@
 /bazel-out
 
 # Node
-server/node_modules
+/node_modules
 npm-debug.log
 yarn-error.log
 
@@ -42,15 +42,7 @@ testem.log
 Thumbs.db
 
 # credentilas 
+/fireBase/serviceAccountKey.json
 
 # Node
 /src/enviroments
-
-
-# Server
-
-# credentilas 
-server/fireBase/serviceAccountKey.json
-
-# Node
-client/src/enviroments
