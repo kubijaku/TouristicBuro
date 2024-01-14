@@ -1,0 +1,44 @@
+
+
+
+<div *ngIf="server">
+  <h1>Biuro turystyczne</h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/trips" routerLinkActive="active">Trips</a>
+        </li>
+        <li class="nav-item" *ngIf="authService.isLoggedIn">
+          <a class="nav-link" (click)="authService.Logout()">Log Out</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <router-outlet></router-outlet>
+</div>
+
+<div *ngIf="server == '' " class="choice_screen">
+    <div class="d-flex align-items-center justify-content-center h-100">
+        <div>
+          <h1 class="server-text">CHOOSE SERVER</h1>
+            <div class="form-check form-check-inline m-5" (click)="setLocal()">
+              <input class="form-check-input" type="radio" name="radioFilter" id="filter-none" checked>
+              <label class="form-check-label label-text" for="inlineRadio1">local server</label>
+            </div>
+            <div class="form-check form-check-inline m-5" (click)="setFirebase()">
+                <input class="form-check-input" type="radio" name="radioFilter" id="filter-1">
+                <label class="form-check-label text-nowrap label-text" for="inlineRadio2">firebase server</label>
+            </div>
+        </div>
+    </div>
+</div>
+

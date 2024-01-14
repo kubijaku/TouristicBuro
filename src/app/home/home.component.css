@@ -1,0 +1,28 @@
+/* home.component.css */
+:host {
+    display: block;
+    background: linear-gradient(135deg, #3494e6, #ec6ead); /* Adjust the gradient colors */
+    height: 90vh; /* 100% of the viewport height */
+    margin: 0;
+    padding: 0;
+  }
+
+  .homepage-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color: #1e00ff; /* Customize the button color */
+    border-color: #12009c;
+  }
+  
+  /* Add more custom styling as needed */
+  

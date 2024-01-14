@@ -1,0 +1,103 @@
+[
+    {
+      "name": "Wakacje nad morzem",
+      "destination_country": "Hiszpania",
+      "start_date": "2023-07-01",
+      "final_date": "2023-07-15",
+      "price": 2500.00,
+      "max_number_of_places": 20,
+      "description": "Wspaniałe wakacje nad Costa del Sol. Piękne plaże i pyszne jedzenie.",
+      "photo_link": "https://picsum.photos/200"
+    },
+    {
+      "name": "Zimowy raj",
+      "destination_country": "Szwajcaria",
+      "start_date": "2023-12-20",
+      "final_date": "2023-12-31",
+      "price": 3500.00,
+      "max_number_of_places": 15,
+      "description": "Zimowy wypoczynek w Alpach. Narciarstwo, spa i pyszna czekolada.",
+      "photo_link": "https://picsum.photos/200"
+    },
+    {
+      "name": "Egzotyczna przygoda",
+      "destination_country": "Tajlandia",
+      "start_date": "2024-02-15",
+      "final_date": "2024-02-28",
+      "price": 4500.00,
+      "max_number_of_places": 12,
+      "description": "Podróż przez dżungle, wizyta w świątyniach i relaks na białych plażach.",
+      "photo_link": "https://picsum.photos/200"
+    },
+    {
+      "name": "Historia i kultura",
+      "destination_country": "Włochy",
+      "start_date": "2023-09-10",
+      "final_date": "2023-09-20",
+      "price": 3000.00,
+      "max_number_of_places": 18,
+      "description": "Zwiedzanie zabytków Rzymu, Florencji i Wenecji.",
+      "photo_link": "https://picsum.photos/200"
+    },
+    {
+      "name": "Podróże po Europie",
+      "destination_country": "Francja",
+      "start_date": "2023-05-05",
+      "final_date": "2023-05-20",
+      "price": 2800.00,
+      "max_number_of_places": 25,
+      "description": "Trasa przez Paryż, Niceę, Lyon i Bordeaux.",
+      "photo_link": "https://picsum.photos/200"
+    },
+    {
+      "name": "Safari w Afryce",
+      "destination_country": "Kenia",
+      "start_date": "2024-06-10",
+      "final_date": "2024-06-25",
+      "price": 5000.00,
+      "max_number_of_places": 10,
+      "description": "Spotkanie z dzikimi zwierzętami w Parku Narodowym Maasai Mara.",
+      "photo_link": "https://picsum.photos/200"
+    },
+    {
+      "name": "Turystyka górska",
+      "destination_country": "Nepal",
+      "start_date": "2024-04-01",
+      "final_date": "2024-04-15",
+      "price": 4200.00,
+      "max_number_of_places": 15,
+      "description": "Wspinaczka w Himalajach i widok na szczyt Everestu.",
+      "photo_link": "https://picsum.photos/200"
+    },
+    {
+      "name": "Relaks nad Morzem Śródziemnym",
+      "destination_country": "Grecja",
+      "start_date": "2023-08-15",
+      "final_date": "2023-08-30",
+      "price": 3200.00,
+      "max_number_of_places": 20,
+      "description": "Cicha plaża, turkusowe morze i tradycyjna grecka kuchnia.",
+      "photo_link": "https://picsum.photos/200"
+    },
+    {
+      "name": "Wakacje w kraju kwitnącej wiśni",
+      "destination_country": "Japonia",
+      "start_date": "2024-03-15",
+      "final_date": "2024-03-31",
+      "price": 4800.00,
+      "max_number_of_places": 15,
+      "description": "Cherry blossom viewing, japońska kuchnia i kultura.",
+      "photo_link": "https://picsum.photos/200"
+    },
+    {
+      "name": "Spacer po plenerze",
+      "destination_country": "Holandia",
+      "start_date": "2023-04-10",
+      "final_date": "2023-04-20",
+      "price": 2600.00,
+      "max_number_of_places": 18,
+      "description": "Zwiedzanie kolorowych pól tulipanów i malowniczych wiosek.",
+      "photo_link": "https://picsum.photos/200"
+    }
+  ]
+  

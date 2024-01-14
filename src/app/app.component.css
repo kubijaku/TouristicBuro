@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.choice_screen{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}   
+
+.server-text {
+    font-family: 'Nosifer', cursive;
+    color: #800000; /* Darker Red color */
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 5px; /* Increase letter spacing for an eerie feel */
+    transform: translateY(-50%);
+  }
+
+  .label-text {
+    font-family: 'Nosifer', cursive;
+    color: #FFFFFF; /* White color */
+    font-size: 2.5rem; /* Adjust font size */
+  }
+
+  /* Your component CSS file */
+
+h1 {
+  font-family: 'Pacifico', cursive; /* Use the 'Pacifico' font */
+  font-size: 2.5rem; /* Adjust the font size */
+  color: #007bff; /* Customize the font color */
+  /* text-align: center; */
+  margin-bottom: 20px; /* Add some spacing at the bottom */
+}

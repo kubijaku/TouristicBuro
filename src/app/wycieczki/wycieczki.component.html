@@ -1,0 +1,25 @@
+<!-- <p>wycieczki works!</p> -->
+
+<div *ngIf="lowestPriceTrip && highestPriceTrip && wycieczki && currency">
+
+
+
+  <app-wycieczka *ngFor = "let wycieczka of wycieczki | paginate: { itemsPerPage: itemsPerPage, currentPage: page }" [wycieczka] = "wycieczka.data" [id] = "wycieczka.key" 
+  [lowestPriceTrip] = "lowestPriceTrip" [highestPriceTrip] = "highestPriceTrip" [currency] = "currency"
+  (newItemEvent) = "onNotifyClicked($event)">
+  </app-wycieczka>
+
+  <pagination-controls (pageChange)="page = $event"></pagination-controls>
+
+  <label>Items per page:
+    <select [(ngModel)]="itemsPerPage">
+      <option value="2">2</option>
+      <option value="4">4</option>
+      <option value="6">6</option>
+      <option value="10">10</option>
+    </select>
+    </label>
+
+  <app-summary-widget [wycieczki] = "wycieczki" [numberOfreservedTrips] = "numberOfreservedTrips"></app-summary-widget>
+</div>
+

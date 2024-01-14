@@ -1,0 +1,18 @@
+<!-- <p>summary-widget works!</p> -->
+
+
+<div *ngIf="numberOfreservedTrips > 0" [ngStyle]="{ 'background-color': (numberOfreservedTrips > 5) ? 'rgba(0, 255, 0, 0.5)' : 'rgba(255, 0, 0, 0.5)'}">
+    <div *ngFor = "let wycieczka of wycieczki" >
+        <div *ngIf="wycieczka.data.reserved_places" >
+            <div class="card tilebox-one">
+                <div class="card-body">
+                    <i class="dripicons-basket float-end text-muted"></i>
+                    <h5 class="text-muted text-uppercase mt-0">{{wycieczka.data.name}}</h5>
+                    <h2>{{wycieczka.data.reserved_places}}</h2>
+                    <span class="text-muted">Liczba zarezerwowanych miejsc</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

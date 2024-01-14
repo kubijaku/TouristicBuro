@@ -1,0 +1,13 @@
+img {
+    border-radius: 50%;
+}
+
+.btn-group {
+    margin: 0 auto;
+}
+
+.btn-group a {
+    background-color: #04AA6D; /* Green background */
+    border-color: #005a39;
+  }
+
