@@ -3,9 +3,9 @@
 # Travel agency
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/your-angular-app.svg)](https://github.com/yourusername/your-angular-app/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/your-angular-app.svg)](https://github.com/yourusername/your-angular-app/issues)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/your-angular-app.svg)](https://github.com/yourusername/your-angular-app/network)
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/your-angular-app.svg)](https://github.com/kubijaku/TravelAgency/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/yourusername/your-angular-app.svg)](https://github.com/kubijaku/TravelAgency/issues)
+[![GitHub Forks](https://img.shields.io/github/forks/yourusername/your-angular-app.svg)](https://github.com/kubijaku/TravelAgency/network)
 
 ## Description
 
