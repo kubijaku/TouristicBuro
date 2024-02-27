@@ -123,10 +123,6 @@ If you manually would like to go to unexisting page you will be moved to 404 pag
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you encounter any bugs or have feature requests.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 For any inquiries or support, please [contact me](mailto:kubijaku11@gmail.com).
