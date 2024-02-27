@@ -9,16 +9,10 @@
 
 ## Description
 
-Your Angular App Name is a [brief description of your app]. It provides [mention the primary features or functionalities of your app].
-
-![Your Angular App Screenshot](/path/to/screenshot.png)
-
-## Features
-
-- Feature 1
-- Feature 2
-- Feature 3
-- ...
+Travel agency app is an example of a travel agency app. You can see multiple trips on the trips screen, delete them, check their prices in PLN as well as in Euro and reserve or unreserve a trip.
+<p align="center">
+  <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/TripsScreen.png" alt="drawing" width="800"/>
+</p>
 
 ## Installation from docker
 
@@ -46,6 +40,19 @@ ng serve
 ```
 
 Visit `http://localhost:4200` in your browser to view the app.
+
+## Features
+### Log in 
+After running app you'll see log in screen where you can log in if you already have an account on the platform.
+<p align="center">
+  <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/Login.png" alt="drawing" width="800"/>
+</p>
+If you forget your password you can press the button "send email" under the username and password form. It will move you to [click on this link](#Description) screen.
+
+### Sign up
+- Feature 3
+- ...
+
 
 ## Contributing
 
