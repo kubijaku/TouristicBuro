@@ -49,7 +49,7 @@ After running app you'll see log in screen where you can log in if you already h
   <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/Login.png" alt="Login" width="800"/>
 </p>
 
-If you forget your password you can press the button "send email" under the username and password form. It will move you to [sign up](#reset-password) screen.
+If you forget your password you can press the button "send email" under the username and password form. It will move you to [reset password](#reset-password) screen.
 If you don't have an account you can register on [register page](#sign-up).
 
 ### Reset password
