@@ -42,6 +42,14 @@ ng serve
 Visit `http://localhost:4200` in your browser to view the app.
 
 ## Features
+
+### Choose server
+After running app you'll see a screen for server choosing. You should press firebase server if you don't have have the local one. The local server is availble on [docker image](https://hub.docker.com/repository/docker/kubijaku/travel_agency_server) but you need credentials from contributor - [contact](#contact).
+
+<p align="center">
+  <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/ChooseScreen.png" alt="Login" width="90%"/>
+</p>
+
 ### Log in 
 After running app you'll see log in screen where you can log in if you already have an account on the platform.
 
@@ -103,6 +111,13 @@ Under the trips you can see summary of the reservations. If the number of reserv
   <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/GreenSummary.png" alt="Chepeast" width="90%"/>
 </p>
 
+### 404 page
+
+If you manually would like to go to unexisting page you will be moved to 404 page with possibility to redirect to home page by pressing "Przejdź do domu".
+
+<p align="center">
+  <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/404Page.png" alt="Chepeast" width="90%"/>
+</p>
 
 ## Contributing
 
