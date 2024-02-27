@@ -88,7 +88,7 @@ Here you can browse available trips, delete them (using trash icon placed in the
 
 The cheapest trip is marked with a green border and the most expensive one with the red border.
 
-<p float="left">
+<p display="float">
   <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/GreenBorderTrip.png" alt="Chepeast" width="20%"/>
   <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/RedBorderTrip.png" alt="MostExpensive" width="20%"/>
 </p>
@@ -114,4 +114,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or support, please contact [Your Name](mailto:kubijaku11@gmail.com).
+For any inquiries or support, please [contact me](mailto:kubijaku11@gmail.com).
