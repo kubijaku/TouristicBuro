@@ -20,7 +20,18 @@ Your Angular App Name is a [brief description of your app]. It provides [mention
 - Feature 3
 - ...
 
-## Installation
+## Installation from docker
+
+1. Clone [docker image](https://hub.docker.com/repository/docker/kubijaku/travel_agency_app) (there are also docker images for specific processor [arm](https://hub.docker.com/repository/docker/kubijaku/travel_agency_app_arm64) and [amd](https://hub.docker.com/repository/docker/kubijaku/travel_agency_app_amd64)).
+
+## Usage docker image
+1. run docker image using
+```bash
+docker run -p 4200:4200 kubijaku/travel_agency_app
+```
+( or ```docker run -p 4200:4200 kubijaku/travel_agency_app_amd64``` for amd image and ```docker run -p 4200:4200 kubijaku/travel_agency_app_arm64``` for arm image). 
+
+## Installation from repository
 
 1. Clone the repository: `git clone https://github.com/kubijaku/TravelAgency.git`
 2. Navigate to the project directory: `cd client`
