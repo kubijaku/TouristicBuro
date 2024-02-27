@@ -1,5 +1,5 @@
 import express from "express";
-import { db } from "../firebase/config.js";
+import { db } from "../fireBase/config.js";
 import { FieldValue } from "firebase-admin/firestore";
 import { getDatabase, ref, onValue, set } from 'firebase/database';
 
