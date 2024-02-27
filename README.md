@@ -86,24 +86,18 @@ Here you can browse available trips, delete them (using trash icon placed in the
   <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/TripsScreen.png" alt="MainScreen" width="800"/>
 </p>
 
-The cheapest trip is marked with green border and the most expensive one with the red border.
+The cheapest trip is marked with a green border and the most expensive one with the red border.
 
-<p align="center">
-  <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/TripsScreen.png" alt="MainScreen" width="300"/>
+<p float="left">
+  <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/GreenBorderTrip.png" alt="Chepeast" width="300"/>
+  <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/RedBorderTrip.png" alt="MostExpensive" width="300"/>
 </p>
 
-<p align="center">
-  <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/TripsScreen.png" alt="MainScreen" width="300"/>
-</p>
+Under the trips you can see summary of the reservations. If the number of reserved trips is less or equal 5 the background of summary will be red, unlike it will be green. 
 
-Under the trips you can see summary of the reservations. If the number of reserved trips is less then 5 the background of summary will be red, unlike it will be green. 
-
-<p align="center">
-  <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/TripsScreen.png" alt="MainScreen" width="300"/>
-</p>
-
-<p align="center">
-  <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/TripsScreen.png" alt="MainScreen" width="300"/>
+<p float="left">
+  <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/GreenSummary.png" alt="Chepeast" width="300"/>
+  <img src="https://github.com/kubijaku/TravelAgency/blob/main/ReadmeFiles/client_images/RedSummary.png" alt="MostExpensive" width="300"/>
 </p>
 
 
